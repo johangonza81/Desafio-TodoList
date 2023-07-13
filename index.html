@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Todo List</title>
+</head>
+<body>
+    <div class="container">
+        <div class="contentlist">
+            <div class="primero">
+                <div class="title">
+                    <h1>Todo List</h1>
+                </div>
+                <div class="primero2">
+                    <div class="Enca">  
+                        <h4>Nueva Tarea</h4>
+                    </div>
+                    <div class="conteInput">
+                        <input type="text" id="input1">
+                        <button id="btn" onclick="agregarObjeto()">Agregar</button>
+                    </div>
+                </div>
+            </div>
+            <div class="segundo">
+                <div>
+                    <p>Total: <span id="dato1"></span></p>
+                    <p>Realizadas:<span id="dato2"></span></p>
+                </div>
+                <div>
+                    <table> 
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>Tarea</th>
+                                <th>Seleccionar</th>
+                                <th>Borrar</th>
+                            </tr>
+                        </thead>
+                        <tbody id="dato4">
+                        
+                        </tbody>     
+                    </table>
+                </div>                
+            </div>
+        </div>
+    </div>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,106 @@
+* {
+    list-style: none;
+}
+
+body {
+    background-color:rgb(70, 70, 176);
+    margin: 0;
+    padding: 0;
+}
+
+
+.contentlist {
+    margin-top: 5%;
+    margin-left: 14%;
+    border-radius: 10px;
+    width: 800px;
+    height: 100vh;
+    background-color: rgba(226, 217, 217, 0.655);
+    
+
+}
+
+.title {
+    border-bottom: 3px solid green;
+}
+
+.conteInput {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+#input1 {
+    margin-right: 10px;
+    width: 60%;
+    height: 80%;
+}
+
+#btn {
+    width: 20%;
+    height: 50%;
+    color: white;
+    background-color: green;
+    border-radius: 3px;
+}
+
+.Enca {
+    height: 100%;
+    width: 100%;
+}
+
+h4 {
+    margin-left: 10%;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: green;
+}
+
+h1 {
+    margin-left: 2%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: orangered;
+}
+
+.segundo {
+    display: grid;
+    grid-template-columns: 4fr 4fr ;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+
+.primero2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.conteInput {
+    width: 100%;
+    height: 100%;
+}
+
+table {
+    border-right: solid red;
+    border-left: solid red;
+    border-top: solid red;
+    border-bottom: solid red;
+}
+ #myCheck{
+    padding-left: 10px;
+    margin-left: 10px;
+ }
+
+ th, td {
+    padding: 8px;
+    text-align: center;
+}
+
+
+
+
+
+
